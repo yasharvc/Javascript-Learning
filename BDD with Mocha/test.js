@@ -15,4 +15,8 @@ describe("pow", function() {
 
   });
 
+  it("With negative power should return NaN",function(){
+    assert.isNaN(pow(2,-1));
+  });
+
 });
